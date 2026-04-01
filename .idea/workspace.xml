@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="feat:README.md implement user CRUD API with Express and MongoDB" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "darshanpatellr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/darshanpatellr/crud-user.git",
+    "accountId": "e20ea097-3675-4ae2-a090-820a7f2a7e73"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3BhicNue7CRjs0bmbAwOYf6PHTC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.app.js.executor": "Run",
+    "Node.js.server.js.executor": "Run",
+    "Node.js.userController.js.executor": "Run",
+    "Node.js.userModel.js.executor": "Run",
+    "Node.js.userRoutes.js.executor": "Run",
+    "Node.js.validate.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "23.11.0",
+    "javascript.nodejs.core.library.typings.version": "25.5.0",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/srs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.32098.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="" />
+      <created>1774947780430</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774947780430</updated>
+      <workItem from="1774947781505" duration="15077000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt.">
+      <option name="closed" value="true" />
+      <created>1774961279057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774961279057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:README.md implement user CRUD API with Express and MongoDB">
+      <option name="closed" value="true" />
+      <created>1775019935236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775019935236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:README.md implement user CRUD API with Express and MongoDB">
+      <option name="closed" value="true" />
+      <created>1775020019725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775020019725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt." />
+    <MESSAGE value="feat:README.md implement user CRUD API with Express and MongoDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:README.md implement user CRUD API with Express and MongoDB" />
+  </component>
+</project>
