@@ -10,7 +10,10 @@ async function connectDB() {
         throw new Error('Missing required environment variable: MONGO_URI');
     }
 
-    client = new MongoClient(process.env.MONGO_URI);
+    client = new MongoClient(process.env.MONGO_URI, {
+        serverSelectionTimeoutMS: 10000,
+        connectTimeoutMS: 10000,
+    });
     await client.connect();
     console.log('✅  Connected to MongoDB Atlas');
     return client;

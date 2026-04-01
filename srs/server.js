@@ -14,7 +14,8 @@ async function startServer() {
         });
 
     } catch (err) {
-        console.error('❌  Failed to start server:\',' + err.message);
+        console.error(`❌  Failed to start server: ${err && err.message ? err.message : String(err)}`);
+        if (err && err.stack) console.error(err.stack);
         process.exit(1);
     }
 }
