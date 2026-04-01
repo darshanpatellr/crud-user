@@ -25,7 +25,11 @@ async function startServer() {
         console.log(`🔧  PORT=${PORT}`);
 
         app.listen(PORT, () => {
-            console.log(`🚀  Server listening on http://localhost:${PORT}`);
+            if(PORT==="8080"){
+                console.log(`🚀  Server listening on http://localhost:${PORT}`);
+            } else{
+                console.log(`🚀  Server listening on port ${PORT}`);
+            }
         });
 
         connectDB()

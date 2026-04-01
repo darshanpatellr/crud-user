@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="Implement global process exception handlers and configure IDE npm run scripts.">
+    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="Implement MongoDB connection promise handling to prevent race conditions and update server startup logging.">
+      <change afterPath="$PROJECT_DIR$/srs/middleware/loggerMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srs/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/controllers/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774947780430</updated>
       <workItem from="1774947781505" duration="15077000" />
-      <workItem from="1775020300781" duration="6564000" />
+      <workItem from="1775020300781" duration="13799000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt.">
       <option name="closed" value="true" />
@@ -183,7 +187,31 @@
       <option name="project" value="LOCAL" />
       <updated>1775027590571</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Refactor exception handlers for delayed process exit and add server startup logging.">
+      <option name="closed" value="true" />
+      <created>1775027825150</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775027825150</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor server startup sequence and enhance database connection logging.">
+      <option name="closed" value="true" />
+      <created>1775028121425</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775028121426</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implement MongoDB connection promise handling to prevent race conditions and update server startup logging.">
+      <option name="closed" value="true" />
+      <created>1775028679076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775028679076</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +238,9 @@
     <MESSAGE value="Add environment variable validation and improve .env loading path." />
     <MESSAGE value="Configure MongoDB connection timeouts and enhance server startup error logging." />
     <MESSAGE value="Implement global process exception handlers and configure IDE npm run scripts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement global process exception handlers and configure IDE npm run scripts." />
+    <MESSAGE value="Refactor exception handlers for delayed process exit and add server startup logging." />
+    <MESSAGE value="Refactor server startup sequence and enhance database connection logging." />
+    <MESSAGE value="Implement MongoDB connection promise handling to prevent race conditions and update server startup logging." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement MongoDB connection promise handling to prevent race conditions and update server startup logging." />
   </component>
 </project>

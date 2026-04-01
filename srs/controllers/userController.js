@@ -36,7 +36,6 @@ async function getAllUsers(req, res) {
 
 // GET /api/users/profile/:userId  →  Return one user by ID
 async function getUserById(req, res) {
-    console.log('getUserById called: ' + req.params.userId);
     const user = await userModel.findUserById(req.params.userId);
     if (!user) {
         return res.status(404).json({
@@ -93,7 +92,6 @@ async function deleteUser(req, res) {
 // PUT /api/users/:id  →  Update user name and address
 async function updateUser(req, res) {
     const {name, address} = req.body;
-    console.log(req.body);
 
     const result = await userModel.updateUserById(req.params.userId, {
         name: name,
