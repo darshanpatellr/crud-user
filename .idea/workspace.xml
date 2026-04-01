@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="feat:README.md implement user CRUD API with Express and MongoDB" />
+    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="CRUD User API (Node.js + Express + MongoDB).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srs/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,22 +24,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "darshanpatellr"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;darshanpatellr&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/darshanpatellr/crud-user.git",
-    "accountId": "e20ea097-3675-4ae2-a090-820a7f2a7e73"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/darshanpatellr/crud-user.git&quot;,
+    &quot;accountId&quot;: &quot;e20ea097-3675-4ae2-a090-820a7f2a7e73&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3BhicNue7CRjs0bmbAwOYf6PHTC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Database Script.server.js.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.app.js.executor": "Run",
     "Node.js.server.js.executor": "Run",
@@ -68,6 +73,14 @@
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ],
+    "RunConfigurationTargetLRU": [
+      "c84ee6fe-72ca-4b6d-aa1b-167cc2e9e248"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,6 +88,14 @@
       <recent name="$PROJECT_DIR$/srs" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server.js" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/srs/server.js" />
+      <script-mode>FILE</script-mode>
+      <data-source id="c84ee6fe-72ca-4b6d-aa1b-167cc2e9e248" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774947780430</updated>
       <workItem from="1774947781505" duration="15077000" />
+      <workItem from="1775020300781" duration="3918000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt.">
       <option name="closed" value="true" />
@@ -116,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775020019725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CRUD User API (Node.js + Express + MongoDB).">
+      <option name="closed" value="true" />
+      <created>1775020455486</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775020455486</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CRUD User API (Node.js + Express + MongoDB).">
+      <option name="closed" value="true" />
+      <created>1775023358939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775023358939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,9 +163,21 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt." />
     <MESSAGE value="feat:README.md implement user CRUD API with Express and MongoDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:README.md implement user CRUD API with Express and MongoDB" />
+    <MESSAGE value="CRUD User API (Node.js + Express + MongoDB)." />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD User API (Node.js + Express + MongoDB)." />
   </component>
 </project>
