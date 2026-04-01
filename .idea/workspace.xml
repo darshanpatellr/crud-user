@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="Add environment variable validation and improve .env loading path.">
-      <change beforePath="$PROJECT_DIR$/srs/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/config/db.js" afterDir="false" />
+    <list default="true" id="6ceb3206-b8be-4f07-ba5c-a393c9aebe0f" name="Changes" comment="Implement global process exception handlers and configure IDE npm run scripts.">
       <change beforePath="$PROJECT_DIR$/srs/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/srs/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1774947780430</updated>
       <workItem from="1774947781505" duration="15077000" />
-      <workItem from="1775020300781" duration="6024000" />
+      <workItem from="1775020300781" duration="6564000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement user CRUD API with Express and MongoDB&#10;&#10;- Set up Express server and MongoDB Atlas connection pooling.&#10;- Implement User model and controller for CRUD operations, name-based search, and sorting.&#10;- Add validation middleware for request bodies, ObjectIDs, and search queries.&#10;- Implement global error handling, 404 routing, and an async error handler utility.&#10;- Configure project dependencies, environment variables, and password hashing with bcrypt.">
       <option name="closed" value="true" />
@@ -168,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775024523659</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configure MongoDB connection timeouts and enhance server startup error logging.">
+      <option name="closed" value="true" />
+      <created>1775027321264</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775027321264</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement global process exception handlers and configure IDE npm run scripts.">
+      <option name="closed" value="true" />
+      <created>1775027590571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775027590571</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +208,8 @@
     <MESSAGE value="feat:README.md implement user CRUD API with Express and MongoDB" />
     <MESSAGE value="CRUD User API (Node.js + Express + MongoDB)." />
     <MESSAGE value="Add environment variable validation and improve .env loading path." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add environment variable validation and improve .env loading path." />
+    <MESSAGE value="Configure MongoDB connection timeouts and enhance server startup error logging." />
+    <MESSAGE value="Implement global process exception handlers and configure IDE npm run scripts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement global process exception handlers and configure IDE npm run scripts." />
   </component>
 </project>

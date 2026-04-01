@@ -23,11 +23,19 @@ async function startServer() {
     try {
         console.log('🚀  Starting server...');
         console.log(`🔧  PORT=${PORT}`);
-        await connectDB();
 
         app.listen(PORT, () => {
-            console.log(`🚀  Server running on http://localhost:${PORT}`);
+            console.log(`🚀  Server listening on port ${PORT}`);
         });
+
+        connectDB()
+            .then(() => {
+                console.log('✅  Database connection established');
+            })
+            .catch((err) => {
+                console.error(`❌  Database connection failed: ${err && err.message ? err.message : String(err)}`);
+                if (err && err.stack) console.error(err.stack);
+            });
 
     } catch (err) {
         console.error(`❌  Failed to start server: ${err && err.message ? err.message : String(err)}`);
