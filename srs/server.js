@@ -8,17 +8,21 @@ const PORT = process.env.PORT || 3000;
 process.on('uncaughtException', (err) => {
     console.error(`❌  Uncaught Exception: ${err && err.message ? err.message : String(err)}`);
     if (err && err.stack) console.error(err.stack);
-    process.exit(1);
+    process.exitCode = 1;
+    setTimeout(() => process.exit(1), 250);
 });
 
 process.on('unhandledRejection', (reason) => {
     console.error(`❌  Unhandled Rejection: ${reason && reason.message ? reason.message : String(reason)}`);
     if (reason && reason.stack) console.error(reason.stack);
-    process.exit(1);
+    process.exitCode = 1;
+    setTimeout(() => process.exit(1), 250);
 });
 
 async function startServer() {
     try {
+        console.log('🚀  Starting server...');
+        console.log(`🔧  PORT=${PORT}`);
         await connectDB();
 
         app.listen(PORT, () => {
@@ -28,7 +32,8 @@ async function startServer() {
     } catch (err) {
         console.error(`❌  Failed to start server: ${err && err.message ? err.message : String(err)}`);
         if (err && err.stack) console.error(err.stack);
-        process.exit(1);
+        process.exitCode = 1;
+        setTimeout(() => process.exit(1), 250);
     }
 }
 
